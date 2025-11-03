@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
    <div>
-   <Button variant="destructive">Hi Tot Click Me</Button>
+   <Button variant="new">Hi Tot Click Me</Button>
+   <Image src="/tottube.svg" height={50} width={50} alt="logo" />
+   <p className= "text-xl font-semibold tracking-tight">Tot Tube</p>
    </div>
   );
 }
