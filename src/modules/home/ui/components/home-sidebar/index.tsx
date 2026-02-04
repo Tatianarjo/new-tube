@@ -1,5 +1,6 @@
 import { Sidebar, SidebarContent } from "@/components/ui/sidebar";
 import { MainSection } from "./main-section";
+import { PersonalSection } from "./personal-section";
 import { Separator } from "@/components/ui/separator";
 
 export const HomeSidebar = () => {
@@ -8,6 +9,7 @@ export const HomeSidebar = () => {
             <SidebarContent className="bg-background">
                 <MainSection />
                 <Separator />
+                <PersonalSection />
             </SidebarContent>
         </Sidebar>
     )
